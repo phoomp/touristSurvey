@@ -58,8 +58,3 @@ class LoginView: UIViewController {
         super.viewDidLoad()
     }
 }
-
-
-func a() {
-    return
-}

@@ -15,6 +15,7 @@
 		1009F9C124A74CB1004DA35B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1009F9BF24A74CB1004DA35B /* LaunchScreen.storyboard */; };
 		1009F9CC24A74CB1004DA35B /* Survey_Storyboard_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1009F9CB24A74CB1004DA35B /* Survey_Storyboard_4Tests.swift */; };
 		1009F9D724A74CB1004DA35B /* Survey_Storyboard_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1009F9D624A74CB1004DA35B /* Survey_Storyboard_4UITests.swift */; };
+		102C27AC24AACD2B00D3628E /* StarQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102C27AB24AACD2B00D3628E /* StarQuestionViewController.swift */; };
 		1054F2B924A74F0F00C8826D /* IconQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054F2B824A74F0F00C8826D /* IconQuestionViewController.swift */; };
 		1054F2BD24A755E800C8826D /* SurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054F2BC24A755E800C8826D /* SurveyQuestion.swift */; };
 		1054F2C124A7560200C8826D /* SurveyForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054F2C024A7560200C8826D /* SurveyForm.swift */; };
@@ -55,6 +56,7 @@
 		1009F9D224A74CB1004DA35B /* Survey Storyboard 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Survey Storyboard 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1009F9D624A74CB1004DA35B /* Survey_Storyboard_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey_Storyboard_4UITests.swift; sourceTree = "<group>"; };
 		1009F9D824A74CB1004DA35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102C27AB24AACD2B00D3628E /* StarQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarQuestionViewController.swift; sourceTree = "<group>"; };
 		1054F2B824A74F0F00C8826D /* IconQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconQuestionViewController.swift; sourceTree = "<group>"; };
 		1054F2BC24A755E800C8826D /* SurveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestion.swift; sourceTree = "<group>"; };
 		1054F2C024A7560200C8826D /* SurveyForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyForm.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				1009F9B824A74CAD004DA35B /* ViewController.swift */,
 				1054F2B824A74F0F00C8826D /* IconQuestionViewController.swift */,
 				10E4DBB124A78C1C00C092B2 /* PickQuestionViewController.swift */,
+				102C27AB24AACD2B00D3628E /* StarQuestionViewController.swift */,
 				10E4DBB724A9D5A200C092B2 /* ThankYouViewController.swift */,
 			);
 			path = UI;
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102C27AC24AACD2B00D3628E /* StarQuestionViewController.swift in Sources */,
 				10E4DBB824A9D5A200C092B2 /* ThankYouViewController.swift in Sources */,
 				1009F9B924A74CAD004DA35B /* ViewController.swift in Sources */,
 				1054F2C124A7560200C8826D /* SurveyForm.swift in Sources */,

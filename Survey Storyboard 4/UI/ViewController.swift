@@ -8,6 +8,7 @@
 
 import UIKit
 
+var logoLogout: Int = 0
 let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
 class ViewController: UIViewController {
@@ -32,8 +33,9 @@ class ViewController: UIViewController {
             "name": "Tourist Survey Form",
             "questions": [
                 { "question": "Where did you come from?", "type": "pick", "choices": ["China", "India", "Japan", "Thailand", "United States of America", "Other"]},
-                { "question": "What is your gender?", "type": "pick", "choices": ["Male", "Female", "Other"]},
-                { "question": "Please rate our service!", "type": "icon", "choices": ["n/a"]}
+                { "question": "Do you have a pet with you?", "type": "pick", "choices": ["Yes", "No"]},
+                { "question": "Please rate our service!", "type": "icon", "choices": ["n/a"]},
+                { "question": "Stars", "type": "star", "choices": ["n/a"]}
             ]
         }
         """

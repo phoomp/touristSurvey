@@ -23,7 +23,6 @@ class IconQuestionView: UIViewController {
     @IBOutlet weak var greatImageView: UIImageView!
     
     var elements: [UIImageView] = []
-    var logoLogout: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()

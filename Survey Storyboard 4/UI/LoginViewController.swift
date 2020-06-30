@@ -18,8 +18,8 @@ class LoginView: UIViewController {
     @IBOutlet weak var statusLabel: UILabel!
     
     @IBAction func loginButton(_ sender: UIButton) {
-        let username = ""
-        let password = ""
+        let username = "user1"
+        let password = "1234"
         if usernameField.text == username && passwordField.text == password {
             let vcToPresent = storyboard!.instantiateViewController(identifier: "StartView")
             vcToPresent.modalPresentationStyle = .fullScreen
